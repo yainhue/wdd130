@@ -196,15 +196,17 @@ footer p{
     justify-content: center; 
     align-items: center;
     margin: 0 !important;
-    padding: 4px !important;
+    padding: 0 !important;
 }
 
-.contact h2 {
+.contact h1 {
+    position: static;
     background-color: white;
     box-shadow: none;
     color: var(--accent1-color);
-    margin: 0 !important;
+    margin: 0 auto !important;
     padding: 0 !important;
+    margin-bottom: 15px !important;
     font-size: xx-large;
 } 
 
