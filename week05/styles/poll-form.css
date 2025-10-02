@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+footer, form {
+    width: 840px; 
+    margin: auto;
+    padding: 20px;
+}
+
+form {
+    font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    width: 840px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 5%;
+    background-color: beige;
+    display: grid;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 3fr 1fr;
+  margin: 0.5rem 0;
+}
+
+.column2 {
+  grid-template-columns: 1fr 2fr;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 3px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+  color: purple;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  margin: 1rem;
+  background-color: darkgreen;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: darkcyan;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: blueviolet;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+footer {
+  margin: 1rem auto 0;
+  width: 650px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #777;
+  border-top: 1px solid #ccc;
+}
