@@ -2,133 +2,182 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Contact us to book your rafting adventure, ask questions, or plan a custom group experience.">
-    <meta name="author" content="Yain Huento">
-    <title>Contact - White Water Rafting</title>
-    <link rel="stylesheet" href="styles/rafting.css">
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Contact us to book your rafting adventure, ask questions, or plan a custom group experience."
+        name="description" />
+    <meta content="Yain Huento" name="author" />
+    <title>
+        Contact - White Water Rafting
+    </title>
+    <link href="styles/rafting.css" rel="stylesheet" />
 </head>
 
 <body>
     <header>
-        <img class="logo " src="./images/logo.png" alt="White Water Rafting logo">
-        <div></div> <!--Space between logo and navigation bar-->
+        <img alt="White Water Rafting logo" class="logo" src="./images/logo.png" />
+        <div>
+        </div>
+        <!--Space between logo and navigation bar-->
         <nav>
             <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="about.html">
+                        About us
+                    </a>
+                </li>
+                <li>
+                    <a href="trips.html">
+                        Trips
+                    </a>
+                </li>
+                <li>
+                    <a href="contact.html">
+                        Contact Us
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
-
-
     <main>
-        <div class="contact"> <!-- contact -->
+        <div class="contact">
+            <!-- contact -->
             <section>
-                <h1>White Water Rafting Company</h1>
+                <h1>
+                    White Water Rafting Company
+                </h1>
                 <div class="contact-info">
-                    <p>123 Main River Street</p>
-                    <p>Kolob, California</p>
-                    <p>+1 999 999 9999</p>
-                    <p>info@whitewater.com</p>
+                    <p>
+                        123 Main River Street
+                    </p>
+                    <p>
+                        Kolob, California
+                    </p>
+                    <p>
+                        +1 999 999 9999
+                    </p>
+                    <p>
+                        info@whitewater.com
+                    </p>
                 </div>
             </section>
         </div>
-
         <div class="middle">
-
-            <div> <!-- map -->
-                <iframe class="map"
+            <div>
+                <!-- map -->
+                <iframe allowfullscreen="" class="map" height="555" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12758.954570726846!2d-58.802318538942956!3d-34.62426044263117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1759440760350!5m2!1ses!2sar"
-                    width="400" height="555" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    width="400">
+                </iframe>
             </div>
-
-            <form> <!-- form -->
+            <form>
+                <!-- form -->
                 <fieldset>
                     <div class="form-item column2">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" placeholder="Type Here...">
+                        <label for="name">
+                            Name:
+                        </label>
+                        <input id="name" name="name" placeholder="Type Here..." type="text" />
                     </div>
                 </fieldset>
                 <fieldset>
                     <div class="form-item column2">
-                        <label>Message Purpose</label>
+                        <label>
+                            Message Purpose
+                        </label>
                         <label for="generalInquiry">
-                            <input type="radio" id="generalInquiry" name="purpose" value="generalInquiry">
+                            <input id="generalInquiry" name="purpose" type="radio" value="generalInquiry" />
                             General Inquiry
-                        </label><br>
+                        </label>
+                        <br />
                         <label for="reservationQuestion">
-                            <input type="radio" id="reservationQuestion" name="purpose" value="reservationQuestion">
+                            <input id="reservationQuestion" name="purpose" type="radio" value="reservationQuestion" />
                             Reservation Question
-                        </label><br>
+                        </label>
+                        <br />
                         <label for="websiteSuggestion">
-                            <input type="radio" id="websiteSuggestion" name="purpose" value="websiteSuggestion">
+                            <input id="websiteSuggestion" name="purpose" type="radio" value="websiteSuggestion" />
                             Website Suggestion
                         </label>
                     </div>
                 </fieldset>
                 <fieldset>
-                    <div class=" form-item column2">
-                        <label for="useremail">Email:</label>
-                        <input type="email" id="useremail" name="useremail" placeholder="rafting@gmail.com">
+                    <div class="form-item column2">
+                        <label for="useremail">
+                            Email:
+                        </label>
+                        <input id="useremail" name="useremail" placeholder="rafting@gmail.com" type="email" />
                     </div>
                 </fieldset>
                 <fieldset>
-                    <label for="feedback">Message:</label>
-                    <textarea id="feedback" name="feedback" rows="4" placeholder="Type Here..."></textarea>
+                    <label for="feedback">
+                        Message:
+                    </label>
+                    <textarea id="feedback" name="feedback" placeholder="Type Here..." rows="4"></textarea>
                     <div class="form-item column1">
-                        <label for="pet">Please Subscribe me to the monthly newsletter</label>
-                        <input type="checkbox" id="pet" name="pet">
+                        <label for="pet">
+                            Please Subscribe me to the monthly newsletter
+                        </label>
+                        <input id="pet" name="pet" type="checkbox" />
                     </div>
                 </fieldset>
-                <button type="submit">Get in Touch!</button>
+                <button type="submit">
+                    Get in Touch!
+                </button>
             </form>
-
         </div>
-
-        <section> <!-- employees -->
-            <h2>We Are Here to Serve You</h2>
+        <section>
+            <!-- employees -->
+            <h2>
+                We Are Here to Serve You
+            </h2>
             <div class="employees">
                 <figure>
-                    <img src="./images/employee1.jpg"
-                        alt="Smiling woman in gray blazer, long brown hair, office setting with orange wall and window view.">
-                    <figcaption>Elena Marlowe</figcaption>
+                    <img alt="Smiling woman in gray blazer, long brown hair, office setting with orange wall and window view."
+                        src="./images/employee1.jpg" />
+                    <figcaption>
+                        Elena Marlowe
+                    </figcaption>
                 </figure>
                 <figure>
-                    <img src="./images/employee2.jpg"
-                        alt="Person with glasses and dark blazer, standing indoors with soft natural light and blurred window background.">
-                    <figcaption>Jasper Linwood</figcaption>
+                    <img alt="Person with glasses and dark blazer, standing indoors with soft natural light and blurred window background."
+                        src="./images/employee2.jpg" />
+                    <figcaption>
+                        Jasper Linwood
+                    </figcaption>
                 </figure>
                 <figure>
-                    <img src="./images/employee3.jpg"
-                        alt="Smiling person in maroon blazer and black turtleneck, standing before ornate stone wall carvings.">
-                    <figcaption>René Calderón</figcaption>
+                    <img alt="Smiling person in maroon blazer and black turtleneck, standing before ornate stone wall carvings."
+                        src="./images/employee3.jpg" />
+                    <figcaption>
+                        René Calderón
+                    </figcaption>
                 </figure>
             </div>
         </section>
-
     </main>
-
     <footer>
-        <p>©2025 - 💦White Water Rafting💦 - Yain Huento</p>
+        <p>
+            ©2025 - 💦White Water Rafting💦 - Yain Huento
+        </p>
         <nav class="socialmedia">
             <a href="https://www.facebook.com/" target="_blank">
-                <img src="./images/facebook.svg" alt="Facebook Logo">
+                <img alt="Facebook Logo" src="./images/facebook.svg" />
             </a>
             <a href="https://www.instagram.com/" target="_blank">
-                <img src="./images/instagram.svg" alt="Instagram Logo">
+                <img alt="Instagram Logo" src="./images/instagram.svg" />
             </a>
             <a href="https://www.youtube.com/" target="_blank">
-                <img src="./images/youtube.svg" alt="Youtube Logo">
+                <img alt="Youtube Logo" src="./images/youtube.svg" />
             </a>
         </nav>
     </footer>
-
 </body>
 
 </html>
